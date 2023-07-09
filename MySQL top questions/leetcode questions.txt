@@ -1,0 +1,20 @@
+https://leetcode.com/problems/consecutive-numbers/
+
+https://leetcode.com/problems/employees-earning-more-than-their-managers/
+
+https://leetcode.com/problems/duplicate-emails/description/
+
+https://leetcode.com/problems/customers-who-never-order/description/
+
+https://leetcode.com/problems/department-highest-salary/description/
+
+https://leetcode.com/problems/department-top-three-salaries/description/  **
+
+https://leetcode.com/problems/delete-duplicate-emails/description/
+
+https://leetcode.com/problems/rising-temperature/description/
+
+https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/description/ *
+
+https://leetcode.com/problems/customers-who-bought-all-products/description/ 
+
