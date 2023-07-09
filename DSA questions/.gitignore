@@ -1,0 +1,9 @@
+/bin/
+/.classpath
+/.factorypath
+/.project
+/target/
+/.settings/
+
+# Application.properties
+src/main/resources/application.properties
