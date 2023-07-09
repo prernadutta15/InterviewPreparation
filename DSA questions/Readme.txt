@@ -101,7 +101,8 @@ Stack and Queue:
 2. Min Stack
 3. Implement Queue using Stacks
 4. Evaluate Reverse Polish Notation
-5. Sliding Window Maximum
+5. Sliding Window Maximum   (done)
+https://github.com/prernadutta15/InterviewPreparation/blob/main/DSA%20questions/src/main/java/com/practice/coding/StacksAndQueues/MaximumWindow.java
 6. Implement Stack using Queues
 7. Design Circular Queue
 8. Largest Rectangle in Histogram
