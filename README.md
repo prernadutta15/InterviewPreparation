@@ -4,27 +4,30 @@ One stop for all resources for interview preparation
 ## Must do interview questions
 
 ### Array:
-1. Two Sum
+1. Two Sum (done)
 2. Container With Most Water
 3. Best Time to Buy and Sell Stock
 4. Product of Array Except Self
-5. Maximum Subarray
+5. Maximum Sub array
 6. Merge Intervals
 7. Rotate Array
 8. Combination Sum
 9. Missing Number
 10. Find All Numbers Disappeared in an Array
+11. Three Sum (done)
+12. Four Sum
+13. Sub arrays with K Different Integers (Hard) (done)
 
 ### String:
 1. Reverse String
 2. Valid Anagram
 3. Longest Palindromic Substring
 4. Group Anagrams
-5. Valid Parentheses
+5. Valid Parentheses (done in stacks)
 6. Longest Common Prefix
 7. String to Integer (atoi)
 8. Palindrome Permutation
-9. Longest Substring Without Repeating Characters
+9. Longest Substring Without Repeating Characters (done)
 10. ZigZag Conversion
 
 ### Linked List:
