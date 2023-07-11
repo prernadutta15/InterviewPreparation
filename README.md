@@ -5,18 +5,19 @@ One stop for all resources for interview preparation
 
 ### Array:
 1. Two Sum (done)
-2. Container With Most Water
+2. Container With Most Water (done)
 3. Best Time to Buy and Sell Stock
-4. Product of Array Except Self
+4. Product of Array Except Self (done)
 5. Maximum Sub array
 6. Merge Intervals
-7. Rotate Array
+7. Rotate Array (done)
 8. Combination Sum
 9. Missing Number
 10. Find All Numbers Disappeared in an Array
 11. Three Sum (done)
 12. Four Sum
 13. Sub arrays with K Different Integers (Hard) (done)
+14. Find all numbers that occur twice in an array using constant space (Hard) (done)
 
 ### String:
 1. Reverse String
@@ -53,6 +54,7 @@ One stop for all resources for interview preparation
 8. Path Sum
 9. Binary Tree Zigzag Level Order Traversal
 10. Flatten Binary Tree to Linked List
+11. Minimum Depth of Binary Tree (done)
 
 ### Dynamic Programming:
 1. Climbing Stairs
