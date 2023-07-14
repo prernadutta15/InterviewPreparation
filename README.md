@@ -81,17 +81,17 @@ One stop for all resources for interview preparation
 10. Graph Valid Tree
 
 ### Backtracking:
-1. Permutations I
+1. Permutations I (done)
 2. Subsets
 3. Letter Combinations of a Phone Number
 4. Palindrome Partitioning
-5. Word Search
+5. Word Search (done)
 6. Combination Sum
 7. N-Queens
 8. Generate Parentheses
 9. Sudoku Solver
 10. Restore IP Addresses
-11. Permutations II
+11. Permutations II (done)
 12. Splitting a string into consecutive values
 13. Word Search II
 14. Combination Sum II
