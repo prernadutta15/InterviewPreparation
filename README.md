@@ -12,7 +12,7 @@ One stop for all resources for interview preparation
 6. Merge Intervals (done)
 7. Rotate Array (done)
 8. Combination Sum
-9. Missing Number
+9. Missing Number (done)
 10. Find All Numbers Disappeared in an Array (done)
 11. Three Sum (done)
 12. Four Sum
