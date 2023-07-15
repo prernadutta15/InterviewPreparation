@@ -8,12 +8,12 @@ One stop for all resources for interview preparation
 2. Container With Most Water (done)
 3. Best Time to Buy and Sell Stock
 4. Product of Array Except Self (done)
-5. Maximum Sub array
-6. Merge Intervals
+5. Maximum Sub array (done)
+6. Merge Intervals (done)
 7. Rotate Array (done)
 8. Combination Sum
 9. Missing Number
-10. Find All Numbers Disappeared in an Array
+10. Find All Numbers Disappeared in an Array (done)
 11. Three Sum (done)
 12. Four Sum
 13. Sub arrays with K Different Integers (Hard) (done)
