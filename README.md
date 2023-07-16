@@ -20,7 +20,7 @@ One stop for all resources for interview preparation
 14. Find all numbers that occur twice in an array using constant space (Hard) (done)
 
 ### String:
-1. Reverse String
+1. Reverse String 
 2. Valid Anagram
 3. Longest Palindromic Substring
 4. Group Anagrams
@@ -103,7 +103,7 @@ One stop for all resources for interview preparation
 20. Subsets II
 
 ### Sorting and Searching:
-1. Merge Intervals
+1. Merge Intervals (done)
 2. Find First and Last Position of Element in Sorted Array
 3. Search in Rotated Sorted Array
 4. Find Peak Element
@@ -113,6 +113,9 @@ One stop for all resources for interview preparation
 8. Merge k Sorted Lists
 9. Count of Smaller Numbers After Self
 10. Find Minimum in Rotated Sorted Array
+11. Aggressive Cows
+12. Painters Partition Problem
+13. Ath Magic Number
 
 ### Stack and Queue:
 1. Valid Parentheses (done)
@@ -129,7 +132,7 @@ One stop for all resources for interview preparation
 
 ### Greedy:
 1. Jump Game
-2. Container With Most Water
+2. Container With Most Water (done)
 3. Non-overlapping Intervals
 4. Partition Labels
 5. Minimum Number of Arrows to Burst Balloons
@@ -137,5 +140,7 @@ One stop for all resources for interview preparation
 7. Lemonade Change
 8. Queue Reconstruction by Height
 9. Gas Station
-10. Meeting Rooms II
+10. Meeting Rooms I
+11. Meeting Rooms II
+12. Jump Game II
 
