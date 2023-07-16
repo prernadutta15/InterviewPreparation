@@ -20,7 +20,7 @@ One stop for all resources for interview preparation
 14. Find all numbers that occur twice in an array using constant space (Hard) (done)
 
 ### String:
-1. Reverse String 
+1. Reverse String (done)
 2. Valid Anagram
 3. Longest Palindromic Substring
 4. Group Anagrams
@@ -46,7 +46,7 @@ One stop for all resources for interview preparation
 ### Binary Tree:
 1. Maximum Depth of Binary Tree
 2. Invert Binary Tree
-3. Symmetric Tree
+3. Symmetric Tree (done)
 4. Construct Binary Tree from Preorder and Inorder Traversal
 5. Validate Binary Search Tree
 6. Lowest Common Ancestor of a Binary Tree
