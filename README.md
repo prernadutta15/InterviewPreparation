@@ -11,13 +11,14 @@ One stop for all resources for interview preparation
 5. Maximum Sub array (done)
 6. Merge Intervals (done)
 7. Rotate Array (done)
-8. Combination Sum
+8. Combination Sum  (done in Backtracking)
 9. Missing Number (done)
 10. Find All Numbers Disappeared in an Array (done)
 11. Three Sum (done)
 12. Four Sum
 13. Sub arrays with K Different Integers (Hard) (done)
 14. Find all numbers that occur twice in an array using constant space (Hard) (done)
+15. Permutation Sequence (Hard) (done)
 
 ### String:
 1. Reverse String (done)
@@ -67,6 +68,7 @@ One stop for all resources for interview preparation
 8. Longest Palindromic Subsequence
 9. Word Break
 10. Best Time to Buy and Sell Stock
+11. Palindrome Partitioning II (done) (HARD)
 
 ### Graph:
 1. Course Schedule
@@ -84,11 +86,11 @@ One stop for all resources for interview preparation
 1. Permutations I (done)
 2. Subsets (done)
 3. Letter Combinations of a Phone Number (done)
-4. Palindrome Partitioning
+4. Palindrome Partitioning (done) 
 5. Word Search (done)
 6. Combination Sum (done)
 7. N-Queens
-8. Generate Parentheses
+8. Generate Parentheses (done)
 9. Sudoku Solver
 10. Restore IP Addresses
 11. Permutations II (done)
@@ -116,6 +118,7 @@ One stop for all resources for interview preparation
 11. Aggressive Cows
 12. Painters Partition Problem
 13. Ath Magic Number
+14. Inversion Count
 
 ### Stack and Queue:
 1. Valid Parentheses (done)
