@@ -34,7 +34,7 @@ One stop for all resources for interview preparation
 ### Linked List:
 1. Reverse Linked List
 2. Merge Two Sorted Lists
-3. Add Two Numbers
+3. Add Two Numbers (done)
 4. Remove Nth Node From End of List
 5. Intersection of Two Linked Lists
 6. Linked List Cycle
@@ -82,11 +82,11 @@ One stop for all resources for interview preparation
 
 ### Backtracking:
 1. Permutations I (done)
-2. Subsets
-3. Letter Combinations of a Phone Number
+2. Subsets (done)
+3. Letter Combinations of a Phone Number (done)
 4. Palindrome Partitioning
 5. Word Search (done)
-6. Combination Sum
+6. Combination Sum (done)
 7. N-Queens
 8. Generate Parentheses
 9. Sudoku Solver
@@ -94,13 +94,13 @@ One stop for all resources for interview preparation
 11. Permutations II (done)
 12. Splitting a string into consecutive values
 13. Word Search II
-14. Combination Sum II
+14. Combination Sum II (done)
 15. Find unique binary string
 16. Combinations
 17. Max length of concatenated String using unique characters
 18. Partition to k equal sum subsets
 19. Matchstick to squares
-20. Subsets II
+20. Subsets II (done)
 
 ### Sorting and Searching:
 1. Merge Intervals (done)
