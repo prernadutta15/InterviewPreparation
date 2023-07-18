@@ -42,7 +42,7 @@ One stop for all resources for interview preparation
 7. Palindrome Linked List
 8. Flatten a Multilevel Doubly Linked List
 9. Copy List with Random Pointer
-10. LRU Cache
+10. LRU Cache (done)
 
 ### Binary Tree:
 1. Maximum Depth of Binary Tree
@@ -58,7 +58,7 @@ One stop for all resources for interview preparation
 11. Minimum Depth of Binary Tree (done)
 
 ### Dynamic Programming:
-1. Climbing Stairs
+1. Climbing Stairs 
 2. Coin Change
 3. Longest Increasing Subsequence
 4. Maximum Subarray
@@ -68,7 +68,8 @@ One stop for all resources for interview preparation
 8. Longest Palindromic Subsequence
 9. Word Break
 10. Best Time to Buy and Sell Stock
-11. Palindrome Partitioning II (done) (HARD)
+11. Palindrome Partitioning II (done in backtracking section) (HARD)
+12. Paint Houses (done)
 
 ### Graph:
 1. Course Schedule
@@ -106,9 +107,9 @@ One stop for all resources for interview preparation
 
 ### Sorting and Searching:
 1. Merge Intervals (done)
-2. Find First and Last Position of Element in Sorted Array
-3. Search in Rotated Sorted Array
-4. Find Peak Element
+2. Find First and Last Position of Element in Sorted Array (done)
+3. Search in Rotated Sorted Array (done)
+4. Find Peak Element (done)
 5. Kth Largest Element in an Array
 6. Median of Two Sorted Arrays
 7. Search a 2D Matrix
@@ -134,7 +135,7 @@ One stop for all resources for interview preparation
 11. Max Freq Stack (done)
 
 ### Greedy:
-1. Jump Game
+1. Jump Game (done)
 2. Container With Most Water (done)
 3. Non-overlapping Intervals
 4. Partition Labels
