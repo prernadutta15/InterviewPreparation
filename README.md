@@ -19,6 +19,7 @@ One stop for all resources for interview preparation
 13. Sub arrays with K Different Integers (Hard) (done)
 14. Find all numbers that occur twice in an array using constant space (Hard) (done)
 15. Permutation Sequence (Hard) (done)
+16. Non-overlapping intervals (done)
 
 ### String:
 1. Reverse String (done)
@@ -26,7 +27,7 @@ One stop for all resources for interview preparation
 3. Longest Palindromic Substring
 4. Group Anagrams
 5. Valid Parentheses (done in stacks)
-6. Longest Common Prefix
+6. Longest Common Prefix (done in tries)
 7. String to Integer (atoi)
 8. Palindrome Permutation
 9. Longest Substring Without Repeating Characters (done)
@@ -45,7 +46,7 @@ One stop for all resources for interview preparation
 10. LRU Cache (done)
 
 ### Binary Tree:
-1. Maximum Depth of Binary Tree
+1. Maximum Depth of Binary Tree (done)
 2. Invert Binary Tree
 3. Symmetric Tree (done)
 4. Construct Binary Tree from Preorder and Inorder Traversal
@@ -56,11 +57,12 @@ One stop for all resources for interview preparation
 9. Binary Tree Zigzag Level Order Traversal
 10. Flatten Binary Tree to Linked List
 11. Minimum Depth of Binary Tree (done)
+12. Balanced Tree (done)
 
 ### Dynamic Programming:
 1. Climbing Stairs 
 2. Coin Change
-3. Longest Increasing Subsequence
+3. Longest Increasing Subsequence (done)
 4. Maximum Subarray
 5. Unique Paths
 6. Edit Distance
@@ -82,6 +84,8 @@ One stop for all resources for interview preparation
 8. Word Search
 9. Alien Dictionary
 10. Graph Valid Tree
+11. Number of Provinces 
+12. Number of Operations to make network connected (done)
 
 ### Backtracking:
 1. Permutations I (done)
@@ -147,4 +151,13 @@ One stop for all resources for interview preparation
 10. Meeting Rooms I
 11. Meeting Rooms II
 12. Jump Game II
+
+### Leetcode:
+1. Asteroid Collision (done)
+2. Count Collisions on a Road (done)
+3. Can buy flowers (done)
+4. Teemo Attacking (done)
+5. Max Points From Cards (important) (done)
+6. Min deletions to make array beautiful (done)
+7. Number of longest increasing subsequence (done)
 
