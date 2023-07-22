@@ -20,11 +20,13 @@ One stop for all resources for interview preparation
 14. Find all numbers that occur twice in an array using constant space (Hard) (done)
 15. Permutation Sequence (Hard) (done)
 16. Non-overlapping intervals (done)
+17. Majority Element (done)
+18. Longest Consecutive Sequence (done)
 
 ### String:
 1. Reverse String (done)
 2. Valid Anagram
-3. Longest Palindromic Substring
+3. Longest Palindromic Substring (done)
 4. Group Anagrams
 5. Valid Parentheses (done in stacks)
 6. Longest Common Prefix (done in tries)
@@ -32,6 +34,11 @@ One stop for all resources for interview preparation
 8. Palindrome Permutation
 9. Longest Substring Without Repeating Characters (done)
 10. ZigZag Conversion
+
+### Tries:
+1. Longest Common Prefix (done)
+2. Shortest Unique Prefix (done)
+3. Spelling Checker (done)
 
 ### Linked List:
 1. Reverse Linked List
@@ -60,12 +67,12 @@ One stop for all resources for interview preparation
 12. Balanced Tree (done)
 
 ### Dynamic Programming:
-1. Climbing Stairs 
-2. Coin Change
+1. Climbing Stairs (done)
+2. Coin Change (partially done)
 3. Longest Increasing Subsequence (done)
-4. Maximum Subarray
+4. Maximum Subarray (done)
 5. Unique Paths
-6. Edit Distance
+6. Edit Distance (done)
 7. House Robber
 8. Longest Palindromic Subsequence
 9. Word Break
