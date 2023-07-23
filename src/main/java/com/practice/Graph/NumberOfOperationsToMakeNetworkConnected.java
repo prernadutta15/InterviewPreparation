@@ -21,7 +21,7 @@ public class NumberOfOperationsToMakeNetworkConnected {
 			for(int i=0;i<=V;i++)
 			{
 				par[i]=i;
-				size[i]=0;
+				size[i]=1;
 			}
 		}
 		int findParent(int u)

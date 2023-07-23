@@ -19,7 +19,7 @@ public class DisjointSetImpl
 			for(int i=0;i<=V;i++)
 			{
 				par[i]=i;
-				size[i]=0;
+				size[i]=1;
 			}
 		}
 		int findParent(int u)
@@ -56,6 +56,7 @@ public class DisjointSetImpl
 		disjointSet.union(4, 5);
 		disjointSet.union(6, 7);
 		disjointSet.union(5, 6);
+		System.out.println(disjointSet.size[6]);
 		System.out.println(disjointSet.isConnected(3, 7));
 		System.out.println(disjointSet.isConnected(1, 7));
 		disjointSet.union(3, 7);
