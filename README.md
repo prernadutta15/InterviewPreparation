@@ -93,6 +93,7 @@ One stop for all resources for interview preparation
 10. Graph Valid Tree
 11. Number of Provinces 
 12. Number of Operations to make network connected (done)
+13. Rotten Oranges (done)
 
 ### Backtracking:
 1. Permutations I (done)
@@ -167,4 +168,5 @@ One stop for all resources for interview preparation
 5. Max Points From Cards (important) (done)
 6. Min deletions to make array beautiful (done)
 7. Number of longest increasing subsequence (done)
+8. Find the duplicate number (done)
 

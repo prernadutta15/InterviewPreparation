@@ -54,8 +54,8 @@ public class NumberOfOperationsToMakeNetworkConnected {
     public int makeConnected(int n, int[][] a) {
         DisjointSet ds = new DisjointSet(n);
         
-        //logic: find number of extra edges in a component and then find number of connected components
-        //if there are 5 connected components, you will need 5-1=4 to connect, now check if you have 4 extra edges.
+        //logic: find number of extra edges in a component and then find number of total components
+        //if there are 5 components, you will need 5-1=4 to connect, now check if you have 4 extra edges.
         
         int extra=0, connectedCount=0, ans;
         for(int i=0;i<a.length;i++)
@@ -70,7 +70,7 @@ public class NumberOfOperationsToMakeNetworkConnected {
         
         for(int i=0;i<n;i++)
         {
-            if(ds.par[i]==i)
+            if(ds.par[i]==i) //important trick: whenever you need to find connected components use this
                 connectedCount++;
         }
         ans = connectedCount - 1;

@@ -10,6 +10,11 @@ import java.util.List;
  *
  */
 
+/*
+ * O(ElogE + E*4alpha)
+ */
+
+
 //geeksforgeeks question
 public class KruskalsMinimumSpanningTree {
 
@@ -72,7 +77,7 @@ public class KruskalsMinimumSpanningTree {
 	static int spanningTree(int V, int E, int B[][]){
 		DisjointSet ds = new DisjointSet(V);
 	    List<Edge> list = new ArrayList<>();
-        int i,j,cost=0;
+        int i,cost=0;
         for(i=0;i<B.length;i++)
             list.add(new Edge(B[i][0],B[i][1],B[i][2]));
         Collections.sort(list);

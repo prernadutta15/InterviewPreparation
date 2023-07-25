@@ -12,13 +12,13 @@ package com.practice.Graph;
 public class NumberOfProvincesUsingDFS {
 
 	public int findNumberOfProvinces(int[][] a) {
-        int n=a.length,m=a[0].length, i,j,k,c=0;
+        int n=a.length,i,c=0;
         boolean vis[]=new boolean[n];
+        
         for(i=0;i<n;i++)
         {
             vis[i]=false;
         }
-        
        
         for(i=0;i<n;i++)
         {
