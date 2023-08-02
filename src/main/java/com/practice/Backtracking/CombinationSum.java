@@ -19,32 +19,40 @@ import java.util.List;
  *
  */
 public class CombinationSum {
+	
+	/**
+	 * 
+	 * @Page: 250
+	 */
 
 	 public List<List<Integer>> combinationSum(int[] candidates, int target) {
 	        List<List<Integer>> ans = new ArrayList<>();
 	        List<Integer> out = new ArrayList<>();
-	        findCombinationSum(candidates, target, candidates.length-1, candidates.length, out, ans);
+	        findCombinationSum(candidates, target, candidates.length-1, out, ans);
 	        return ans;
 	    }
-	    void findCombinationSum(int a[], int k, int i, int n, List<Integer> out, List<List<Integer>> ans)
+	    void findCombinationSum(int a[], int k, int i, List<Integer> out, List<List<Integer>> ans)
 	    {
-	        if(i<0)
+	    	if(k==0)
 	        {
-	            if(k==0)
-	                ans.add(new ArrayList<>(out));
+	            ans.add(new ArrayList<>(out));
 	            return;
 	        }
+		    if(i<0 || k<0)
+	        {
+	            return;
+	        }
+	       
 	        
-
 	        //pick
 	        if(a[i]<=k)
 	        {
 	            out.add(a[i]);
-	            findCombinationSum(a,k-a[i],i,n,out,ans);
+	            findCombinationSum(a,k-a[i],i,out,ans);
 	            out.remove(out.size()-1);
 	        }
 	        
 	        //not pick
-	        findCombinationSum(a,k,i-1,n,out,ans);
+	        findCombinationSum(a,k,i-1,out,ans);
 	    }
 }

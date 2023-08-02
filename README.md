@@ -79,21 +79,25 @@ One stop for all resources for interview preparation
 10. Best Time to Buy and Sell Stock
 11. Palindrome Partitioning II (done in backtracking section) (HARD)
 12. Paint Houses (done)
+13. Predict the winner
+14. All Possible full binary trees
 
 ### Graph:
-1. Course Schedule
-2. Number of Islands
+1. Course Schedule (done)
+2. Number of Islands (done)
 3. Word Ladder
 4. Clone Graph
-5. Minimum Spanning Tree
+5. Minimum Spanning Tree (done)
 6. Network Delay Time
 7. Pacific Atlantic Water Flow
-8. Word Search
-9. Alien Dictionary
+8. Word Search (done)
+9. Verify an Alien Dictionary (done)
 10. Graph Valid Tree
-11. Number of Provinces 
+11. Number of Provinces (done)
 12. Number of Operations to make network connected (done)
 13. Rotten Oranges (done)
+14. Is Graph Bipartite? (done)
+15. Is Directed Graph Cyclic? (done)
 
 ### Backtracking:
 1. Permutations I (done)
@@ -105,17 +109,19 @@ One stop for all resources for interview preparation
 7. N-Queens
 8. Generate Parentheses (done)
 9. Sudoku Solver
-10. Restore IP Addresses
+10. Restore IP Addresses (done)
 11. Permutations II (done)
 12. Splitting a string into consecutive values
 13. Word Search II
 14. Combination Sum II (done)
 15. Find unique binary string
-16. Combinations
+16. Combinations (done)
 17. Max length of concatenated String using unique characters
 18. Partition to k equal sum subsets
 19. Matchstick to squares
 20. Subsets II (done)
+21. Fair Distribution of cookies (done)
+22. Non decreasing subsequences (done)
 
 ### Sorting and Searching:
 1. Merge Intervals (done)

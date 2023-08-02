@@ -2,6 +2,10 @@ package com.practice.BinarySearch;
 
 public class SearchInRotatedSortedArray 
 {
+	/**
+	 * 
+	 * @Page: 220
+	 */
 	//further practice: search in rotated array with duplicates
 	public static void main(String[] args) 
 	{
@@ -17,7 +21,8 @@ public class SearchInRotatedSortedArray
 	//best way 
 	public int search(final int[] a, int b) 
     {
-		int l=0,r=a.length-1,mid,pivot=0;
+		//either left or right part will be sorted -> identify that
+		int l=0,r=a.length-1,mid;
         while(l<=r)
         {
             mid=(l+r)>>1;

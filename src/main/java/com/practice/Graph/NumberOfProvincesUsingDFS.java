@@ -9,6 +9,8 @@ package com.practice.Graph;
 /*
  * https://leetcode.com/problems/number-of-provinces/description/
  */
+
+//beats 99%
 public class NumberOfProvincesUsingDFS {
 
 	public int findNumberOfProvinces(int[][] a) {

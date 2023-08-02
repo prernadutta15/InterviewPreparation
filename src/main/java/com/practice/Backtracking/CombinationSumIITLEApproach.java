@@ -22,7 +22,7 @@ public class CombinationSumIITLEApproach {
 		List<List<Integer>> finalAns = new ArrayList<>();
 		List<Integer> out = new ArrayList<>();
 		Arrays.sort(candidates);
-		findCombinationSum(candidates, target, candidates.length - 1, candidates.length, out, ans);
+		findCombinationSum(candidates, target, candidates.length - 1, out, ans);
 
 		Iterator<List<Integer>> it = ans.iterator();
 		while (it.hasNext()) {
@@ -31,19 +31,24 @@ public class CombinationSumIITLEApproach {
 		return finalAns;
 	}
 
-	void findCombinationSum(int a[], int k, int i, int n, List<Integer> out, Set<List<Integer>> ans) {
-		if (i < 0) {
-			if (k == 0)
-				ans.add(new ArrayList<>(out));
-			return;
-		}
+	void findCombinationSum(int a[], int k, int i, List<Integer> out, Set<List<Integer>> ans) {
+		if(k==0)
+        {
+            ans.add(new ArrayList<>(out));
+            return;
+        }
+	    if(i<0 || k<0)
+        {
+            return;
+        }
+       
 		// pick
 		if (a[i] <= k) {
 			out.add(a[i]);
-			findCombinationSum(a, k - a[i], i - 1, n, out, ans);
+			findCombinationSum(a, k - a[i], i - 1, out, ans);
 			out.remove(out.size() - 1);
 		}
 		// not pick
-		findCombinationSum(a, k, i - 1, n, out, ans);
+		findCombinationSum(a, k, i - 1, out, ans);
 	}
 }

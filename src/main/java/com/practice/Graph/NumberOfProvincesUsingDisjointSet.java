@@ -9,6 +9,8 @@ package com.practice.Graph;
 /*
  * https://leetcode.com/problems/number-of-provinces/description/
  */
+
+//beats 41%
 public class NumberOfProvincesUsingDisjointSet {
 
 	public static class DisjointSet {

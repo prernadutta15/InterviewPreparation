@@ -11,6 +11,10 @@ import java.util.List;
 
 public class GenerateParanthesis {
 
+	/**
+	 * 
+	 * @Page: 239
+	 */
 	 public List<String> generateParenthesis(int n) {
 	        List<String> output = new ArrayList<>();
 	        generate(n, 0, 0, "", output);

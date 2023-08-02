@@ -12,6 +12,8 @@ package com.practice.Graph;
 /*
  * TC: O(V * 4alpha)
  */
+
+//Better than 90% submissions hence better than DFS/BFS
 public class FindIfPathExistsUsingDisjointSet {
 
 	class DisjointSet

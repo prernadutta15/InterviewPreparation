@@ -11,6 +11,9 @@ import java.util.List;
 
 public class PalindromePartitioning {
 
+	/**
+	 * @Page: 252
+	 */
 	public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
         List<String> out = new ArrayList<>();
