@@ -22,6 +22,7 @@ One stop for all resources for interview preparation
 16. Non-overlapping intervals (done)
 17. Majority Element (done)
 18. Longest Consecutive Sequence (done)
+19. Fruits into baskets/Pick toys (done)
 
 ### String:
 1. Reverse String (done)
@@ -41,16 +42,21 @@ One stop for all resources for interview preparation
 3. Spelling Checker (done)
 
 ### Linked List:
-1. Reverse Linked List
-2. Merge Two Sorted Lists
+1. Reverse Linked List (done)
+2. Merge Two Sorted Lists (done)
 3. Add Two Numbers (done)
-4. Remove Nth Node From End of List
-5. Intersection of Two Linked Lists
-6. Linked List Cycle
+4. Remove Nth Node From End of List (done)
+5. Intersection of Two Linked Lists (done)
+6. Linked List Cycle I(done)
 7. Palindrome Linked List
 8. Flatten a Multilevel Doubly Linked List
 9. Copy List with Random Pointer
 10. LRU Cache (done)
+11. Delete duplicates from sorted list (done)
+12. Delete duplicates II (hard) (done)
+13. Reverse Linked List in groups of k variation 1 leetcode (done)
+14. Reverse Linked List in groups of k variation 2 (done)
+15. Linked List Cycle II(done)
 
 ### Binary Tree:
 1. Maximum Depth of Binary Tree (done)
@@ -79,8 +85,9 @@ One stop for all resources for interview preparation
 10. Best Time to Buy and Sell Stock
 11. Palindrome Partitioning II (done in backtracking section) (HARD)
 12. Paint Houses (done)
-13. Predict the winner
+13. Predict the winner (done)
 14. All Possible full binary trees
+15. Optimal Partitioning Of String (done)
 
 ### Graph:
 1. Course Schedule (done)
@@ -175,4 +182,5 @@ One stop for all resources for interview preparation
 6. Min deletions to make array beautiful (done)
 7. Number of longest increasing subsequence (done)
 8. Find the duplicate number (done)
+9. Max consecutive ones III (done)
 
