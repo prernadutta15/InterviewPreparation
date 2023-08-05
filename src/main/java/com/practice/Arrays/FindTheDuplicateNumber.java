@@ -11,6 +11,23 @@ package com.practice.Arrays;
  */
 public class FindTheDuplicateNumber {
 
+	public int findDuplicateBestMethod(int[] a) {
+        int n=a.length, i, index=0;
+		for(i=0;i<n;i++)
+        {
+            if(a[i]<0)
+                index=(a[i]*-1) -1;
+            else
+                index = a[i]-1;
+
+            if(a[index]>0)
+                a[index]*=-1;
+            else
+                return Math.abs(a[i]);
+        }
+        return -1;
+    }
+	
 	public int findDuplicate(int[] a) {
         int n=a.length, i, index=0;
 				i=0;

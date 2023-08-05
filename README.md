@@ -13,7 +13,7 @@ One stop for all resources for interview preparation
 7. Rotate Array (done)
 8. Combination Sum  (done in Backtracking)
 9. Missing Number (done)
-10. Find All Numbers Disappeared in an Array (done)
+10. Find All Numbers Disappeared in an Array (Hard) (done)
 11. Three Sum (done)
 12. Four Sum
 13. Sub arrays with K Different Integers (Hard) (done)
