@@ -1,5 +1,7 @@
 package com.practice.Arrays;
 
+import java.util.Arrays;
+
 /**
  * 
  * @author prerna.dutta
@@ -16,7 +18,24 @@ package com.practice.Arrays;
  */
 public class ProductOfArrayExceptSelf {
 
-	public int[] productExceptSelf(int[] a) {
+	public int[] productExceptSelf(int[] nums) {
+        int n = nums.length;
+        int ans[] = new int[n];
+        Arrays.fill(ans, 1);
+        int curr = 1;
+        for(int i = 0; i < n; i++) {
+            ans[i] *= curr;
+            curr *= nums[i];
+        }
+        curr = 1;
+        for(int i = n - 1; i >= 0; i--) {
+            ans[i] *= curr;
+            curr *= nums[i];
+        }
+        return ans;
+    }
+	//with extra space
+	public int[] productExceptSelfII(int[] a) {
         int left=1,i,n=a.length;
         int right[]=new int[n+1];
         int out[]=new int[n];
@@ -31,4 +50,9 @@ public class ProductOfArrayExceptSelf {
         return out;
 
     }
+	public static void main(String[] args) {
+		ProductOfArrayExceptSelf ob = new ProductOfArrayExceptSelf();
+		int a[]= {1,2,3,4,5};
+		ob.productExceptSelf(a);
+	}
 }

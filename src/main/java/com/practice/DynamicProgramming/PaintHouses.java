@@ -48,15 +48,21 @@ package com.practice.DynamicProgramming;
 
 public class PaintHouses {
 
-	public int solve(int[][] a) {
+	public static int solve(int[][] a) {
         int i;
         
         for(i=1;i<a.length;i++)
         {
-            a[i][0]=a[i][0]+Math.min(a[i-1][1],a[i-1][2]);
-            a[i][1]=a[i][1]+Math.min(a[i-1][0],a[i-1][2]);
-            a[i][2]=a[i][2]+Math.min(a[i-1][0],a[i-1][1]);
+            a[i][0]=a[i][0]+Math.max(a[i-1][1],a[i-1][2]);
+            a[i][1]=a[i][1]+Math.max(a[i-1][0],a[i-1][2]);
+            a[i][2]=a[i][2]+Math.max(a[i-1][0],a[i-1][1]);
         }
-        return Math.min(a[a.length-1][0],Math.min(a[a.length-1][1],a[a.length-1][2]));
+        return Math.max(a[a.length-1][0],Math.max(a[a.length-1][1],a[a.length-1][2]));
     }
+	
+	public static void main(String[] args) {
+		int a[][]= {{10,50,1},{5,100,11},{30,40,20}};
+		System.out.println("Way 1 = "+solve(a));
+//		System.out.println("Way 2 = "+f(a));
+	}
 }

@@ -22,23 +22,22 @@ public class WordSearch {
         return false;
         
     }
-    public boolean findWord(char[][] board, int rowCount, int colCount, int x, int y, int i, String word)
-    {
+
+	public boolean findWord(char[][] board, int rowCount, int colCount, int x, int y, int i, String word) 
+	{
 		if (x < 0 || y < 0 || x >= rowCount || y >= colCount || i >= word.length() || board[x][y] != word.charAt(i))
 			return false;
-		
 		char ch = board[x][y];
 		board[x][y] = '$';
 
-		if (i == word.length() - 1)
+		if (i == word.length() - 1) //vimp condition
 			return true;
-		if (findWord(board, rowCount, colCount, x + 1, y, i + 1, word)
-		|| findWord(board, rowCount, colCount, x - 1, y, i + 1, word)
-		|| findWord(board, rowCount, colCount, x, y + 1, i + 1, word)
-		|| findWord(board, rowCount, colCount, x, y - 1, i + 1, word))
-			return true;
-		
+		boolean ans = findWord(board, rowCount, colCount, x + 1, y, i + 1, word)
+				|| findWord(board, rowCount, colCount, x - 1, y, i + 1, word)
+				|| findWord(board, rowCount, colCount, x, y + 1, i + 1, word)
+				|| findWord(board, rowCount, colCount, x, y - 1, i + 1, word);
+
 		board[x][y] = ch;
-		return false;
-    }
+		return ans;
+	}
 }

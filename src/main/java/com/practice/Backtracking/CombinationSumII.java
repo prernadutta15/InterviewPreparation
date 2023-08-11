@@ -33,7 +33,7 @@ public class CombinationSumII {
 				continue;
 			if (a[j] <= k) {
 				out.add(a[j]);
-				findCombinationSum(a, k - a[j], j + 1, n, out, ans);
+				findCombinationSum(a, k - a[j], j + 1, n, out, ans); //j+1 not i+1
 				out.remove(out.size() - 1);
 			}
 		}

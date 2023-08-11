@@ -45,12 +45,12 @@ public class FindIfPathExistsUsingDisjointSet {
             if(size[pu]<size[pv])
             {
                 size[pv]+=size[pu];
-                par[pu] = par[pv];
+                par[pu] = pv;
             }
             else
             {
                 size[pu]+=size[pv];
-                par[pv] = par[pu];
+                par[pv] = pu;
             }
         }
         boolean isConnected(int u, int v)

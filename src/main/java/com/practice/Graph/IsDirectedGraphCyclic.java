@@ -28,7 +28,7 @@ public class IsDirectedGraphCyclic {
 	        void addEdge(int src, int dest)
 	        {
 	            list[src].add(dest);
-	            list[dest].add(src);
+//	            list[dest].add(src);
 	        }
 	    }
 	    public int solve(int A, int[][] B) 

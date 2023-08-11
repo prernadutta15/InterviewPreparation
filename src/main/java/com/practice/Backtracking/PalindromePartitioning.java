@@ -9,6 +9,9 @@ import java.util.List;
  *
  */
 
+/*
+ * https://leetcode.com/problems/palindrome-partitioning/
+ */
 public class PalindromePartitioning {
 
 	/**

@@ -35,7 +35,7 @@ public class Permutations {
         for(int j=i;j<n;j++)
         {
             a[i]=(a[i]+a[j])-(a[j]=a[i]);
-            permutation(a,n,i+1, output);
+            permutation(a,n,i+1, output);//vvimp i+1 not j+1, draw diagram for explanation
             a[i]=(a[i]+a[j])-(a[j]=a[i]);
         }
     }

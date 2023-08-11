@@ -88,6 +88,8 @@ One stop for all resources for interview preparation
 13. Predict the winner (done)
 14. All Possible full binary trees
 15. Optimal Partitioning Of String (done)
+16. Unique Binary Search Trees II (done)
+17. Minimum Falling Path Sum (done)
 
 ### Graph:
 1. Course Schedule (done)
@@ -183,4 +185,4 @@ One stop for all resources for interview preparation
 7. Number of longest increasing subsequence (done)
 8. Find the duplicate number (done)
 9. Max consecutive ones III (done)
-
+10. Isomorphic String (done)
