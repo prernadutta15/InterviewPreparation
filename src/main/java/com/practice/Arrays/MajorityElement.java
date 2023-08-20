@@ -12,16 +12,16 @@ package com.practice.Arrays;
 public class MajorityElement {
 
 	public int majorityElement(int[] A) {
-        int count = 1,major = A[0],i,f=0;
-        for(i=1;i<A.length;i++)
+		int count = 0,throne = 0,i,f=0;
+        for(i=0;i<A.length;i++)
         {
-            if(A[i]==major)
+            if(count == 0)
             {
+                throne = A[i];
                 count++;
             }
-            else if(count == 0)
+            else if(A[i]==throne)
             {
-                major = A[i];
                 count++;
             }
             else{
@@ -30,11 +30,11 @@ public class MajorityElement {
         }
         for(i=0;i<A.length;i++)
         {
-            if(A[i]==major)
+            if(A[i]==throne)
                 f++;
         }
         if(f>A.length/2)
-            return major;
+            return throne;
         return -1;
     }
 }

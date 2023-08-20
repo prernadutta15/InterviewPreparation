@@ -21,11 +21,12 @@ public class UniqueBSTsII {
 	@Data
 	public static class TreeNode
 	{
-		int val;
-		TreeNode left,right;
-		TreeNode(int v)
+		public int val;
+		public TreeNode left,right;
+		public TreeNode(int v)
 		{
 			val=v;
+			left=right=null;
 		}
 	}
 	@Data

@@ -1,7 +1,5 @@
 package com.practice.LinkedLists;
 
-import lombok.AllArgsConstructor;
-
 /**
  * 
  * @author prerna.dutta
@@ -13,11 +11,18 @@ import lombok.AllArgsConstructor;
  */
 public class DeleteDuplicates {
 
-	@AllArgsConstructor
+
 	public class ListNode
-	{
-		int val;
-		ListNode next;
+	{		
+		public int val;
+		public ListNode next;
+		public ListNode(int val, ListNode next) {
+			super();
+			this.val = val;
+			this.next = next;
+		}
+		
+		
 	}
 	 public ListNode deleteDuplicates(ListNode head) {
 	        if(head==null || head.next==null)return head; //imp
