@@ -8,7 +8,27 @@ import java.util.Map;
  * @author prerna.dutta
  *
  */
+/*
+ * https://leetcode.com/problems/lru-cache/
+ */
 
+/*
+ * Basic skeleton:
+ * class LRUCache {
+
+    public LRUCache(int capacity) {
+        
+    }
+    
+    public int get(int key) {
+        
+    }
+    
+    public void put(int key, int value) {
+        
+    }
+}
+ */
 public class LRUCache {
     
     int capacity;
@@ -27,8 +47,19 @@ public class LRUCache {
             value = v;
         }
     }
+
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        tail = new Node(-1,-1);
+        head = new Node(-1,-1);
+        head.next = tail;
+        tail.prev = head;
+        cacheMap = new HashMap<Integer,Node>();
+    }
+    
     Node tail,head;
     Map<Integer,Node> cacheMap;
+    
     public void addFirst(Node node)
     {
         Node nbr = head.next;
@@ -45,14 +76,6 @@ public class LRUCache {
         tail.prev = prevNode;
         toBeDeleted.prev = toBeDeleted.next = null;
         return toBeDeleted;
-    }
-    public LRUCache(int capacity) {
-        this.capacity = capacity;
-        tail = new Node(-1,-1);
-        head = new Node(-1,-1);
-        head.next = tail;
-        tail.prev = head;
-        cacheMap = new HashMap<Integer,Node>();
     }
     public void removeNode(Node node)
     {
@@ -73,7 +96,7 @@ public class LRUCache {
         return node.value;
     }
     
-    public void set(int key, int value) 
+    public void put(int key, int value) 
     {
        Node node = cacheMap.get(key);
        if(node == null)

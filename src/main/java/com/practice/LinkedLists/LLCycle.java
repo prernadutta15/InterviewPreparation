@@ -14,8 +14,7 @@ import com.practice.LinkedLists.DeleteDuplicates.ListNode;
 public class LLCycle {
 
 	 public boolean hasCycle(ListNode head) {
-         ListNode fast=head,slow=head;
-        boolean hasCycle = false;
+        ListNode fast=head,slow=head;
         if(head==null || head.next==null)
             return false;
         while(fast!=null && fast.next!=null)

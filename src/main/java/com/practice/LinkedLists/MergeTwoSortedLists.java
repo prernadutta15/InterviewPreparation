@@ -13,19 +13,36 @@ import com.practice.LinkedLists.DeleteDuplicates.ListNode;
  */
 public class MergeTwoSortedLists {
 
-	public ListNode mergeTwoLists(ListNode A, ListNode B) {
+	ListNode mergeTwoLists(ListNode left, ListNode right)
+    {
+        if(left==null && right==null)return null;
+        if(left==null)return right;
+        if(right==null)return left;
+        if(left.val<right.val)
+        {
+            left.next = mergeTwoLists(left.next, right);
+            return left;
+        }
+        else
+        {
+            right.next = mergeTwoLists(left, right.next);
+            return right;
+        }
+    }
+	
+	public ListNode mergeTwoLists2(ListNode A, ListNode B) {
         ListNode res = null;
         if(A==null)return B;
         if(B==null)return A;
         if(A.val<B.val)
         {
             res = A;
-            res.next = mergeTwoLists(A.next, B);
+            res.next = mergeTwoLists2(A.next, B);
         }
         else
         {
             res = B;
-            res.next = mergeTwoLists(A, B.next);
+            res.next = mergeTwoLists2(A, B.next);
         }
         return res;
     }

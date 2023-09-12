@@ -13,7 +13,11 @@ import java.util.Stack;
  * https://leetcode.com/problems/count-collisions-on-a-road/description/
  */
 public class CountCollisionsOnARoad {
+	//RRRRRLLLLL -> 4+4+2
 	
+	//RRRRRS -> 5 
+	
+	//RLRSLL -> same as 1R 1L 1R 1S 2L  
 	class Pair
     {
         char ele;

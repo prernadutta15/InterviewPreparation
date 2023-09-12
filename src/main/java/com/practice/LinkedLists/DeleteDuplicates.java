@@ -9,10 +9,11 @@ package com.practice.LinkedLists;
 /*
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
  */
+
+
 public class DeleteDuplicates {
 
-
-	public class ListNode
+	public  class ListNode
 	{		
 		public int val;
 		public ListNode next;
@@ -21,9 +22,14 @@ public class DeleteDuplicates {
 			this.val = val;
 			this.next = next;
 		}
-		
+		public ListNode(int val) {
+			super();
+			this.val = val;
+			this.next = null;
+		}
 		
 	}
+	
 	 public ListNode deleteDuplicates(ListNode head) {
 	        if(head==null || head.next==null)return head; //imp
 	        

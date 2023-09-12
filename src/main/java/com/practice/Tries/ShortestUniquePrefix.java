@@ -5,7 +5,9 @@ package com.practice.Tries;
  * @author prerna.dutta
  *
  */
-
+/*
+ * https://www.geeksforgeeks.org/find-all-shortest-unique-prefixes-to-represent-each-word-in-a-given-list/
+ */
 public class ShortestUniquePrefix {
 
 	class Node
@@ -25,8 +27,7 @@ public class ShortestUniquePrefix {
     public String[] prefix(String[] A) 
     {
         Node head = new Node('#');
-        int i,j;
-        String s;
+        int i;
         String out[]=new String[A.length];
         for(i=0;i<A.length;i++)
             head = insertToTrie(A[i],head);
@@ -68,11 +69,6 @@ public class ShortestUniquePrefix {
             if(cur.children[index] == null)
             {
                 cur.children[index] = new Node( s.charAt(i));
-                // cur.count = 1;
-            }
-            else
-            {
-                cur.count = cur.count + 1;
             }
             cur = cur.children[index];
             cur.count = cur.count + 1;

@@ -1,4 +1,4 @@
-package com.practice.Graph;
+package com.practice.Maps;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -12,6 +12,8 @@ package com.practice.Backtracking;
 public class PalindromePartitioningII {
 
 	public int minCut(String s) {
+		if(isPalindrome(s,0,s.length()-1))
+            return 0;
         int dp[] = new int[s.length()];
         for(int i=0;i<s.length();i++)
             dp[i]=-1;
@@ -31,7 +33,7 @@ public class PalindromePartitioningII {
             {
                 cost = 1 + minCuts(s, j+1, n, dp);
                 minCost = Math.min(minCost, cost);
-            }   
+            } 
         }
         return dp[i]=minCost;
     }

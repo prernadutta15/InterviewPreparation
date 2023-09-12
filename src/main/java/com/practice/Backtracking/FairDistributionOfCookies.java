@@ -9,6 +9,9 @@ package com.practice.Backtracking;
 /*
  * https://leetcode.com/problems/fair-distribution-of-cookies/
  */
+/*
+ * Page: 259
+ */
 public class FairDistributionOfCookies {
 
 	int result = Integer.MAX_VALUE;

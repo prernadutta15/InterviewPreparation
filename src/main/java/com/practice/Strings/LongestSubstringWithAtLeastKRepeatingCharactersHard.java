@@ -13,8 +13,10 @@ package com.practice.Strings;
  * Reference: https://www.youtube.com/watch?v=5QpMpO2CAb0
  */
 
-public class LongestSubstringWithAtLeastKRepeatingCharacters {
+public class LongestSubstringWithAtLeastKRepeatingCharactersHard {
 
+	//a b a b b c a a b b , k=2
+	//a->4, b-> 5, c-> 1 once you find invalid char break it in 2 halves
 	public int longestSubstring(String s, int k) {
         return findLongestSubstring(s.toCharArray(), 0, s.length(), k);
     }

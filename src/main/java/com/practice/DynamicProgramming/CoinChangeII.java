@@ -19,24 +19,17 @@ public class CoinChangeII {
             for(j=0;j<=amount;j++)
                 dp[i][j]=-1;
         }
-        return f(coins, coins.length-1, amount, dp);
+        return f(coins, coins.length, amount, dp);
     }
     int f(int a[], int n, int k, int dp[][])
     {
-//        if(k==0)return 1;
-//        if(n==0)
-//        {
-//           if(k%a[n]==0)return 1;
-//           return 0;
-//        }
-        
         if(k==0)return 1;
-        if(n==-1)return 0;
-        if(dp[n][k]!=-1)return dp[n][k];
+        if(n==0)return 0;
+        if(dp[n-1][k]!=-1)return dp[n-1][k];
         int pick = 0;
-        if(k>=a[n])
-        pick = f(a,n,k-a[n],dp);
+        if(k>=a[n-1])
+        pick = f(a,n,k-a[n-1],dp);
         int notPick = f(a,n-1,k,dp);
-        return dp[n][k]= pick+notPick;
+        return dp[n-1][k]= pick+notPick;
     }
 }

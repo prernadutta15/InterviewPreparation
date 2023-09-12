@@ -23,11 +23,23 @@ public class ZeroOneMatrix {
             dist=d;
         }
     }
+	
+	/*
+	 * Approach 1: from every 1 do a BFS to get nearest 0
+	 * 
+	 * I/P:
+	 * 0 1 1 
+	 * 1 1 1
+	 * 1 1 1
+	 * 
+	 * Worst case: a[2][2] full BFS till a[0][0]
+	 * 
+	 * Approach 2: from every 0 do a BFS to 1
+	 */
     public int[][] updateMatrix(int[][] mat) {
         Queue<Graph> q = new LinkedList<>();
         int n = mat.length, m = mat[0].length;
         int[][] distance = new int[n][m];
-        int[][] ans = new int[n][m];
         boolean[][] visited = new boolean[n][m];
         int i,j;
         for(i=0;i<n;i++)

@@ -11,6 +11,8 @@ import java.util.List;
 
 /*
  * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+ * 
+ * Pg: 252
  */
 public class PhoneNumberLetterCombinations {
 
@@ -34,6 +36,22 @@ public class PhoneNumberLetterCombinations {
             ans = ans+word[num].charAt(j);
             find(index+1,word,digits,list,ans);
             ans = ans.substring(0,ans.length()-1);
+        }
+    }
+    
+    //same thing diff way
+    void find2(int index, String word[], String digits, List<String> list,String ans)
+    {
+        if(index==digits.length())
+        {
+            list.add(ans);
+            return;
+        }
+        int j,num=digits.charAt(index)-'0';
+        for(j=0;j<word[num].length();j++)
+        {
+            find(index+1,word,digits,list,ans+word[num].charAt(j));
+            
         }
     }
 }

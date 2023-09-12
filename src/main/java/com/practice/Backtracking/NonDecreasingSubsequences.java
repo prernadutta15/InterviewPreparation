@@ -28,6 +28,8 @@ public class NonDecreasingSubsequences {
 		}
 		return finalAns;
     }
+	
+	// [4,6,7,7] -> O/P: [[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]
     void f(int a[], int i, int n, List<Integer> out, Set<List<Integer>> ans, int prev) {
 		if (i == n) {
 			if (out.size() >= 2) {
@@ -36,11 +38,14 @@ public class NonDecreasingSubsequences {
 			return;
 		}
 
+		//pick
 		if (a[i] >= prev) {
 			out.add(a[i]);
 			f(a, i + 1, n, out, ans, a[i]);
 			out.remove(out.size() - 1);
 		}
+		
+		//not pick
 		f(a, i + 1, n, out, ans, prev);
 	}
 }

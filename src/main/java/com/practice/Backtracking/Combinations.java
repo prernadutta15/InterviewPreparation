@@ -35,4 +35,20 @@ public class Combinations {
             output.remove(output.size() - 1);
         }
     }
+    
+    void backtrack2(int i, int n, int k, List<Integer> output, List<List<Integer>> result) {
+        
+        if(i>n)
+        {
+            if (output.size() == k) {
+                result.add(new ArrayList<>(output));
+            }
+            return;
+        }
+        output.add(i);
+        backtrack(i+1,n,k,output,result);
+        output.remove(output.size()-1);
+        backtrack(i+1,n,k,output,result);
+    }
+    
 }

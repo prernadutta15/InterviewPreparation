@@ -12,7 +12,7 @@ import java.util.Stack;
  * https://leetcode.com/problems/add-two-numbers-ii/description/
  */
 
-public class AddTwoNumbers {
+public class AddTwoNumbersII {
 
 	class ListNode {
 		int val;

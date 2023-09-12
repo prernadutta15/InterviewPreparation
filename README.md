@@ -6,7 +6,7 @@ One stop for all resources for interview preparation
 ### Array:
 1. Two Sum (done)
 2. Container With Most Water (done)
-3. Best Time to Buy and Sell Stock
+3. Best Time to Buy and Sell Stock (done in DP)
 4. Product of Array Except Self (done)
 5. Maximum Sub array (done)
 6. Merge Intervals (done)
@@ -23,6 +23,7 @@ One stop for all resources for interview preparation
 17. Majority Element (done)
 18. Longest Consecutive Sequence (done)
 19. Fruits into baskets/Pick toys (done)
+20. Majority Element I and II (done)
 
 ### String:
 1. Reverse String (done)
@@ -50,13 +51,16 @@ One stop for all resources for interview preparation
 6. Linked List Cycle I(done)
 7. Palindrome Linked List
 8. Flatten a Multilevel Doubly Linked List
-9. Copy List with Random Pointer
+9. Copy List with Random Pointer (done)
 10. LRU Cache (done)
 11. Delete duplicates from sorted list (done)
 12. Delete duplicates II (hard) (done)
 13. Reverse Linked List in groups of k variation 1 leetcode (done)
 14. Reverse Linked List in groups of k variation 2 (done)
 15. Linked List Cycle II(done)
+16. Merge k sorted Lists (done) (hard)
+17. Convert sorted List to binary search tree (done)
+18. Split LL in parts (done)
 
 ### Binary Tree:
 1. Maximum Depth of Binary Tree (done)
@@ -68,36 +72,45 @@ One stop for all resources for interview preparation
 7. Binary Tree Level Order Traversal
 8. Path Sum
 9. Binary Tree Zigzag Level Order Traversal
-10. Flatten Binary Tree to Linked List
+10. Flatten Binary Tree to Linked List (done) 
 11. Minimum Depth of Binary Tree (done)
 12. Balanced Tree (done)
 
 ### Dynamic Programming:
 1. Climbing Stairs (done)
-2. Coin Change (partially done)
+2. Coin Change (done)
 3. Longest Increasing Subsequence (done)
 4. Maximum Subarray (done)
-5. Unique Paths
+5. Unique Paths (done)
 6. Edit Distance (done)
-7. House Robber
+7. House Robber (done)
 8. Longest Palindromic Subsequence
-9. Word Break
-10. Best Time to Buy and Sell Stock
+9. Word Break (done)
+10. Best Time to Buy and Sell Stock (done)
 11. Palindrome Partitioning II (done in backtracking section) (HARD)
 12. Paint Houses (done)
 13. Predict the winner (done)
-14. All Possible full binary trees
+14. All Possible full binary trees (done)
 15. Optimal Partitioning Of String (done)
 16. Unique Binary Search Trees II (done)
 17. Minimum Falling Path Sum (done)
+18. Coin Change II(done)
+19. Perfect Squares (done)
+20. Unique Paths (done)
+21. House Robber II (done)
+22. Cherry Pickup II (HARD) (done)
+23. Buy and sell stocks I and II (done)
+24. Buy and sell stocks with cool down period
+25. Buy and sell stocks with transactional fee
+26. Valid Partition for array (done)
 
 ### Graph:
-1. Course Schedule (done)
+1. Course Schedule I and II (done)
 2. Number of Islands (done)
 3. Word Ladder
-4. Clone Graph
+4. Clone Graph (done)
 5. Minimum Spanning Tree (done)
-6. Network Delay Time
+6. Network Delay Time (done)
 7. Pacific Atlantic Water Flow
 8. Word Search (done)
 9. Verify an Alien Dictionary (done)
@@ -107,6 +120,9 @@ One stop for all resources for interview preparation
 13. Rotten Oranges (done)
 14. Is Graph Bipartite? (done)
 15. Is Directed Graph Cyclic? (done)
+16. K Cheapest Flights (HARD) (done)
+17. Maximal Network Rank (done)
+18. Zero One Matrix (done)
 
 ### Backtracking:
 1. Permutations I (done)
@@ -147,6 +163,9 @@ One stop for all resources for interview preparation
 12. Painters Partition Problem
 13. Ath Magic Number
 14. Inversion Count
+15. Koko Eating bananas (done)
+16. Max running time of N computers (HARD) (done)
+17. Min the max difference of Pairs (done)
 
 ### Stack and Queue:
 1. Valid Parentheses (done)
@@ -160,6 +179,7 @@ One stop for all resources for interview preparation
 9. Design Snake Game
 10. Simplify Path (done)
 11. Max Freq Stack (done)
+12. Validate Stack Sequence (done)
 
 ### Greedy:
 1. Jump Game (done)
@@ -186,3 +206,4 @@ One stop for all resources for interview preparation
 8. Find the duplicate number (done)
 9. Max consecutive ones III (done)
 10. Isomorphic String (done)
+11. Parition List (done)

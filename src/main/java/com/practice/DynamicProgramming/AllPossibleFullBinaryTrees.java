@@ -19,6 +19,7 @@ public class AllPossibleFullBinaryTrees {
 	 List<List<TreeNode>> mp = new ArrayList<>();
 	    
 	    public List<TreeNode> solve(int n) {
+	    	
 	        if (n % 2 == 0) {
 	            return new ArrayList<>();
 	        }

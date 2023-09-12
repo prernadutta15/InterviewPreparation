@@ -15,18 +15,23 @@ import java.util.Stack;
  */
 public class AsteroidCollision {
 	
+	/*
+	 * [1,-3] -> sum = -2 so left
+	 * [5,-3] -> sum = 2 so right, 
+	 * also collision happens only when first is +ve then -ve
+	 */
 	public int[] asteroidCollision(int[] a) {
-        int i,n=a.length,diff=0;
+        int i,n=a.length,sum=0;
         List<Integer> ans = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();
         for(i=0;i<n;i++)
         {
             while(!stack.isEmpty() && a[i]<0 && stack.peek()>0)
             {
-                diff = stack.peek()+a[i];
-                if(diff<0)
+                sum = stack.peek()+a[i];
+                if(sum<0)
                     stack.pop();
-                else if(diff == 0)
+                else if(sum == 0)
                 {
                     stack.pop();
                     a[i]=0;

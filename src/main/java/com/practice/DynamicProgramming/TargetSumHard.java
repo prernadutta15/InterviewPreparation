@@ -10,6 +10,7 @@ package com.practice.DynamicProgramming;
  */
 
 public class TargetSumHard {
+	
 	public int findTargetSumWays(int[] a, int target) {
         int sum=0,i,j,n=a.length;
         for(i=0;i<n;i++)sum+=a[i];

@@ -1,7 +1,5 @@
 package com.practice.LinkedLists;
 
-import com.practice.LinkedLists.DeleteDuplicates.ListNode;
-
 /**
  * 
  * @author prerna.dutta
@@ -14,9 +12,9 @@ import com.practice.LinkedLists.DeleteDuplicates.ListNode;
 public class ReverseLL {
 
 	
-	public ListNode reverseList(ListNode head) {
+	public TestNode reverseList(TestNode head) {
 	       if(head==null||head.next==null)return head;
-	       ListNode p=head,q;
+	       TestNode p=head,q;
 	       while(p.next!=null)
 	       {
 	           q=p.next;

@@ -5,9 +5,12 @@ package com.practice.Tries;
  * @author prerna.dutta
  *
  */
-
+/*
+ * https://leetcode.com/problems/longest-common-prefix/
+ */
 public class LongestCommonPrefix {
 
+	//TC: O(n* length of longest string)
 	class Trie
     {
         boolean isEnd;
@@ -41,7 +44,6 @@ public class LongestCommonPrefix {
         Trie head = new Trie();
         int i;
         String ans="";
-        String out[]=new String[A.length];
         for(i=0;i<A.length;i++)
             head = insertToTrie(A[i],head);
         for(i=0;i<A[0].length();i++)
@@ -56,7 +58,7 @@ public class LongestCommonPrefix {
     
     
     public String longestCommonPrefixWay2(String[] A) {
-             int i,index =0,j;
+             int i,j;
             String result="";
             for(i=0;i<A[0].length();i++)
             {

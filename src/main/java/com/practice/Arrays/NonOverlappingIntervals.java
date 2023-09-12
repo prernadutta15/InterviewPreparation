@@ -35,18 +35,20 @@ public class NonOverlappingIntervals {
 	}
 
 	public int eraseOverlapIntervals(int[][] intervals) {
-		int n = intervals.length, i, count = 0;
-		List<Interval> list = new ArrayList<>();
-		for (i = 0; i < n; i++)
-			list.add(new Interval(intervals[i][0], intervals[i][1]));
-		Collections.sort(list);
-		Interval prev = list.get(0);
-		for (i = 1; i < n; i++) {
-			if (list.get(i).start >= prev.end) {
-				prev = list.get(i);
-			} else
-				count++;
-		}
-		return count;
+		int n = intervals.length, i,count=0;
+        List<Interval> list = new ArrayList<>();
+        for(i=0;i<n;i++)
+            list.add(new Interval(intervals[i][0], intervals[i][1]));
+        Collections.sort(list);
+        Interval prev = list.get(0);
+        for(i=1;i<n;i++)
+        {
+            Interval cur = list.get(i);
+            if(cur.start>=prev.end)
+                prev = cur;
+            else
+                count++;
+        }
+        return count;
 	}
 }

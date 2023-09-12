@@ -28,11 +28,11 @@ public class SubarraysWithKDistinctElements {
     {
         int s=0,e=0,n=a.length,c=0;
         Map<Integer,Integer> map = new HashMap<>();
-        while(e<n)
+        
+        for(e=0;e<n;e++)
         {
             map.put(a[e],map.getOrDefault(a[e],0)+1);
-            e++;
-            while(map.size()>k)//imp: I had kept it as if and was getting error!
+            while(map.size()>k)
             {
                 int freq = map.get(a[s])-1;
                 if(freq<=0)
@@ -41,7 +41,7 @@ public class SubarraysWithKDistinctElements {
                     map.put(a[s],freq);
                 s++;
             }
-            c+=e-s;
+            c+=e-s+1;
         }
         return c;
     }

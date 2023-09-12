@@ -10,13 +10,37 @@ import java.util.Arrays;
 
 /*
  * https://leetcode.com/problems/jump-game-ii/description/
+ * 
+ * Pg: 254
  */
 
 /*
- * [2,3,0,1,4] -> ans = 2
+ * [2,3,1,1,4] -> ans = 2
  */
 public class JumpGameII {
+	
 	//more intuitive DP approach
+	public int jumpTopDown(int[] nums) {
+        int dp[]=new int[nums.length+1];
+        Arrays.fill(dp,-1);
+        return f(0, nums, nums.length, dp);
+    }
+    public int f(int i, int a[], int n, int dp[])
+    {
+        if(i==n-1)return 0;
+        if(i>=n)return (int)10e7;
+        if(dp[i]!=-1)return dp[i];
+        int min = (int)10e7;
+        int jumps = a[i];
+        for(int j=1;j<=jumps;j++)
+        {
+            if(i+j<n)
+                min = Math.min(min, 1+f(i+j, a, n, dp));
+        }
+        return dp[i]=min;
+    }
+	
+    //bottom up approach
 	public int jumpCount(int[] nums) {
 
 	    int n = nums.length;

@@ -1,4 +1,4 @@
-package com.practice.Leetcode;
+package com.practice.LinkedLists;
 
 
 
@@ -21,7 +21,10 @@ public class PartitionList {
 			this.val = val;
 			this.next = next;
 		}
-		
+		public ListNode(int val) {
+			super();
+			this.val = val;
+		}
 		
 	}
 	public ListNode partition(ListNode head, int x) {
@@ -49,4 +52,33 @@ public class PartitionList {
 	        return lessThanXHead.next; // The new head after partitioning
 
 	    }
+	
+	public ListNode partitionList(ListNode A, int B) 
+    {
+        ListNode dummy1 = new ListNode(-1);
+        ListNode dummy2 = new ListNode(-1);
+        ListNode b1, b2, p;
+        dummy1.next = dummy2;
+        dummy2.next = A;
+        b1 = dummy1;
+        b2 = dummy2;
+        p=A;
+        for(p=A;p!=null;p=p.next)
+        {
+            if(p.val<B)
+            {
+                b1.next = p;
+                b1=p;
+            }
+            else
+            {
+                b2.next = p;
+                
+                b2=p;
+            }
+        }
+        b2.next = null;
+        b1.next = dummy2.next;
+        return dummy1.next;
+    }
 }

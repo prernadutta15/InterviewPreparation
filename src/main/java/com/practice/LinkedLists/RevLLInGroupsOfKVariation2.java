@@ -1,6 +1,5 @@
 package com.practice.LinkedLists;
 
-import com.practice.LinkedLists.DeleteDuplicates.ListNode;
 
 /**
  * 
@@ -16,22 +15,22 @@ import com.practice.LinkedLists.DeleteDuplicates.ListNode;
  */
 public class RevLLInGroupsOfKVariation2 {
 
-	public ListNode reverseKGroup(ListNode head, int B) {
+	public TestNode reverseKGroup(TestNode head, int B) {
 		if(head==null)
 	        return head;
-	        ListNode p=head,q=head,r=null;
-	        int i=0;
-	        while(i<B && p!=null)
-	        {
-	            q=p.next;
-	            p.next=r;
-	            r=p;
-	            p=q;
-	            i++;
-	        }
-	        
-	        head.next = reverseKGroup(p,B);
+        TestNode p=head,q=head,r=null;
+        int i=0;
+        while(i<B && p!=null)
+        {
+            q=p.next;
+            p.next=r;
+            r=p;
+            p=q;
+            i++;
+        }
+        
+        head.next = reverseKGroup(p,B);
 
-	        return r;
+        return r;
 	}
 }
