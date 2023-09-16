@@ -3,8 +3,6 @@ package com.practice.LinkedLists;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.practice.LinkedLists.DeleteDuplicates.ListNode;
-
 import lombok.AllArgsConstructor;
 
 /**
@@ -21,6 +19,9 @@ public class DeleteDuplicatesIIHard {
 	@AllArgsConstructor
 	public class ListNode
 	{
+		public ListNode(int val2, ListNode deleteBuild) {
+			// TODO Auto-generated constructor stub
+		}
 		int val;
 		ListNode next;
 	}

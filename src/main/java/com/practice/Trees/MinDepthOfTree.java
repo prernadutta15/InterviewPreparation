@@ -21,6 +21,11 @@ class TreeNode
 	{
 		this.val = val;
 	}
+	public TreeNode(int val2, TreeNode object, TreeNode object2) {
+		val = val2;
+		left = object;
+		right = object2;
+	}
 }
 public class MinDepthOfTree {
 
