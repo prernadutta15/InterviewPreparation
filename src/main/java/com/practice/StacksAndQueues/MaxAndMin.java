@@ -3,6 +3,10 @@ package com.practice.StacksAndQueues;
 import java.util.Stack;
 
 /*
+ * Reference: https://leetcode.com/problems/sum-of-subarray-minimums/
+ */
+
+/*
  * Given an array of integers A.
 
 The value of an array is computed as the difference between the maximum element in the array and the minimum element in the array A.
@@ -27,7 +31,6 @@ value ( [4, 7, 3, 8] ) = 8 - 3 = 5
 sum of values % 10^9+7 = 26
 
  */
-
 public class MaxAndMin {
 
 	public int solve(int[] a) {

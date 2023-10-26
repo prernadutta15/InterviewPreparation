@@ -32,7 +32,7 @@ public class MaximumFrequencyStack {
         if(stack == null)
             stack = new Stack<>();
         stack.push(val);
-        map.put(freq,stack);
+        map.put(freq,stack); //required
     }
     
     public int pop() {
@@ -43,8 +43,11 @@ public class MaximumFrequencyStack {
            map.remove(maxFreq);
            maxFreq--;
        }
-       else
-       map.put(maxFreq, stack);
+       /*
+        * no need of else because stack gets updated
+        */
+//       else
+//       map.put(maxFreq, stack);
        int freq = freqMap.get(ele)-1;
 
        if(freq==0)

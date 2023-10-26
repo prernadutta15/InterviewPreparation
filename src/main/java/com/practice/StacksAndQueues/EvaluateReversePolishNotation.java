@@ -57,18 +57,11 @@ public class EvaluateReversePolishNotation {
         
         for (int i = 0; i < n; i++) {
 
-            // Check if character is
-            // digit from 0-9
-            // then return true
-            // else false
-            if (str.charAt(i) >= '0'
-                && str.charAt(i) <= '9' || (str.charAt(0) == '-' && str.length()!=1)) {
-                return true;
-            }
-            else {
+            if (!(str.charAt(i) >= '0'
+                && str.charAt(i) <= '9' || (str.charAt(0) == '-' && str.length()!=1))) {
                 return false;
             }
         }
-        return false;
+        return true;
     }
 }
