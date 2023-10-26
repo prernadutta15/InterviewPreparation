@@ -19,9 +19,6 @@ public class DeleteDuplicatesIIHard {
 	@AllArgsConstructor
 	public class ListNode
 	{
-		public ListNode(int val2, ListNode deleteBuild) {
-			// TODO Auto-generated constructor stub
-		}
 		int val;
 		ListNode next;
 	}
