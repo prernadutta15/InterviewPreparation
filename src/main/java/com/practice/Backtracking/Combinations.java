@@ -20,7 +20,12 @@ public class Combinations {
 
 	public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
+        int a[]=new int[n];
+        for(int i=0;i<n;i++)
+            a[i]=i+1;
         backtrack(1, n, k, new ArrayList<>(), result);
+        backtrack2(a, 0, n, k, new ArrayList<>(), result);
+        backtrack3(1, n, k, new ArrayList<>(), result);
         return result;
     }
 
@@ -36,7 +41,21 @@ public class Combinations {
         }
     }
     
-    void backtrack2(int i, int n, int k, List<Integer> output, List<List<Integer>> result) {
+    void backtrack2(int a[], int i, int n, int k, List<Integer> output, List<List<Integer>> result) {
+        
+        if (output.size() == k) {
+            result.add(new ArrayList<>(output));
+            return;
+        }
+        if(i==n)
+            return;
+        output.add(a[i]);
+        backtrack2(a,i+1,n,k,output,result);
+        output.remove(output.size()-1);
+        backtrack2(a,i+1,n,k,output,result);
+    }
+    
+    void backtrack3(int i, int n, int k, List<Integer> output, List<List<Integer>> result) {
         
         if(i>n)
         {
@@ -46,9 +65,9 @@ public class Combinations {
             return;
         }
         output.add(i);
-        backtrack(i+1,n,k,output,result);
+        backtrack3(i+1,n,k,output,result);
         output.remove(output.size()-1);
-        backtrack(i+1,n,k,output,result);
+        backtrack3(i+1,n,k,output,result);
     }
     
 }

@@ -28,7 +28,7 @@ public class PermutationsII {
     void permutation(int a[], int n, Map<Integer,Integer> freqMap, List<Integer> temp, List<List<Integer>> output)
     {
         if(temp.size()==n)
-        {
+        { 
             output.add(new ArrayList<>(temp)); //VVImp: output.add(temp) gives incorrect result
             return;
         }

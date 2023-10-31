@@ -26,10 +26,25 @@ public class WordBreakII {
             result.add(s);
             return result;
         }
-        solve(0, s, "");
+        solveBest(0, s, "");
         return result;
     }
 
+    private void solveBest(int i, String str, String ans) {
+   	 if (i==str.length()) {
+            result.add(ans);
+            return;
+        }
+        for (int j = i; j < str.length(); j++) {
+            
+            String subStr = str.substring(i, j+1);
+            if (wordSet.contains(subStr)) {
+                String toAdd = ans=="" ? subStr : " " + subStr;
+                solveBest(j+1,str, ans+toAdd);
+            }
+        }
+    }
+    
     private void solve(int i, String str, String ans) {
     	 if (i>=str.length()) {
              result.add(ans);
