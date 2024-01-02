@@ -22,15 +22,15 @@ import java.util.List;
  */
 public class FindAllDuplicatesInArray {
 
-	 public List<Integer> findDuplicates(int[] a) {
+	 public List<Integer> findDuplicates(int[] nums) {
 	        List<Integer> out = new ArrayList<>();
-	        int i,idx=0,n=a.length;
+	        int i,index=0,n=nums.length;
 	        for(i=0;i<n;i++)
-	        {
-	            idx= Math.abs(a[i])-1;
-	            if(a[idx]>0)a[idx]*=-1;
+	        {	        	
+	            index= Math.abs(nums[i])-1;
+	            if(nums[index]>0)nums[index]*=-1;
 	            else
-	                out.add(Math.abs(a[i]));
+	                out.add(Math.abs(nums[i]));
 	        }
 	        return out;
 	    }
