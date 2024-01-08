@@ -26,6 +26,7 @@ public class Q3FrogJump2 {
 	//				40 10 20 70 80 10 20 70 80 60
 	//output -> 40
 	
+	//Okay
 	public static void main(String[] args) {
 		
 	    Scanner scanner = new Scanner(System.in);
